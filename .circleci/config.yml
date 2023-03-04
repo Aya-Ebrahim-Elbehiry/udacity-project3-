@@ -39,17 +39,16 @@ jobs:
     steps:
       - checkout
       - restore_cache:
-          keys: [frontend-dependances]
+          keys: [frontend-deps]
       - run:
           name: Build front-end
-          command: 
-            cd frontend 
-            npm install 
+          command: |
+            cd frontend
+            npm install
             npm run build
-            
       - save_cache:
           paths: [frontend/node_modules]
-          key: frontend-dependances
+          key: frontend-deps
 
   build-backend:
     docker:
