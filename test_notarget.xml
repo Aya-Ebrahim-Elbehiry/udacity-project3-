@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="test_notarget">
+  <DisplayName/>
+  <Description>test no target</Description>
+  <CreatedAt>1694120050878</CreatedAt>
+  <LastModifiedAt>1694120050878</LastModifiedAt>
+  <BasePaths>/test_notarget</BasePaths>
+  <Policies>
+    <Policy>AM-wellcome-message</Policy>
+  </Policies>
+  <ProxyEndpoints>
+    <ProxyEndpoint>default</ProxyEndpoint>
+  </ProxyEndpoints>
+</APIProxy>
